@@ -1,0 +1,7 @@
+seg|7,topic1:11,topic2:17,topic3:21,topic4 
+ter|7,topic1:11,topic2:17,topic3:21,topic4 
+qua|7,topic1:11,topic2:17,topic3:21,topic4 
+qui|7,topic1:11,topic2:17,topic3:21,topic4 
+sex|7,topic1:11,topic2:17,topic3:21,topic4 
+sab|7,topic1:11,topic2:17,topic3:21,topic4 
+dom|7,topic1:11,topic2:17,topic3:21,topic4
