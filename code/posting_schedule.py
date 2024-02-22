@@ -15,14 +15,13 @@ from publish_on_tap import publish_story
 # path_project = os.getcwd()
 #path_video_used             = '/home/higo/Dev/default_influencer_creator/video_backup/used'
 
-path_topic_dicas_de_beleza  = '/home/higo/Dev/default_influencer_creator/medias_to_post/dicas_beleza'
-path_topic_unhas_decoracao  = '/home/higo/Dev/default_influencer_creator/medias_to_post/unhas_decoracao'
-path_topic_insp_bebe        = '/home/higo/Dev/default_influencer_creator/medias_to_post/bebe'
-path_topic_insp_petts       = '/home/higo/Dev/default_influencer_creator/medias_to_post/petts'
+path_base = os.getcwd()
+print(path_base)
 
-path_topic_insp_casamento   = '/home/higo/Dev/medias_to_post'
-path_topic_make             = '/home/higo/Dev/default_influencer_creator/content_by_topic/make'
-
+path_topic_dicas_de_beleza  = path_base + '/../medias_to_post/dicas_beleza'
+path_topic_unhas_decoracao  = path_base + '/../medias_to_post/unhas_decoracao'
+path_topic_insp_bebe        = path_base + '/../medias_to_post/bebe'
+path_topic_insp_petts       = path_base + '/../medias_to_post/petts'
 
 def select_publica_remove_video(path_topic):
 

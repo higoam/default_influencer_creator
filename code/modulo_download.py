@@ -6,13 +6,16 @@ from datetime import datetime, timedelta
 
 from processamento_video import break_video_to_story
 
-point_to_new_media = '/home/higo/Dev/default_influencer_creator/point_to_new_media'
-z_new_media = '/home/higo/Dev/default_influencer_creator/medias_to_post/z_new_medias'
+path_base = os.getcwd()
+print(path_base)
 
-path_topic_dicas_de_beleza  = '/home/higo/Dev/medias_to_post/dicas_beleza/available'
-path_topic_insp_unhas       = '/home/higo/Dev/medias_to_post/unhas/available'
-path_topic_insp_bebe        = '/home/higo/Dev/medias_to_post/bebe/available'
-path_topic_insp_petts       = '/home/higo/Dev/medias_to_post/petts/available'
+point_to_new_media =    path_base + '/../point_to_new_media'
+z_new_media =           path_base + '/../medias_to_post/z_new_medias'
+
+#path_topic_dicas_de_beleza  = '/home/higo/Dev/medias_to_post/dicas_beleza/available'
+#path_topic_insp_unhas       = '/home/higo/Dev/medias_to_post/unhas/available'
+#path_topic_insp_bebe        = '/home/higo/Dev/medias_to_post/bebe/available'
+#path_topic_insp_petts       = '/home/higo/Dev/medias_to_post/petts/available'
 
 
 #path_dir_content = '/home/higo/Dev/default_influencer_creator/content_by_topic/'
