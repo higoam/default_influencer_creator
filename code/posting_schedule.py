@@ -301,55 +301,43 @@ def trocar_perfil(perfil):
 
 def segunda(hh):
 
-        if   hh == 1:
+        if   hh == 0:
+            print('')
             print(' |   Segunda ',str(hh),'h')
+            pause_system(hh)
 
-        elif hh == 3:
+        elif hh == 1:
+            print('')
             print(' |   Segunda ',str(hh),'h')
+            pause_system(hh)
 
-        elif hh == 5:
+
+        elif hh == 20:
+            print('')
             print(' |   Segunda ',str(hh),'h')
-            print(' |   ')
 
             trocar_perfil('Petts Mimados')
             publish_by_topic('pet')
             print(' |   ')
 
             trocar_perfil('Nossa Inspiracao Unhas')
-            #publish_by_topic('insp_unhas')
+            publish_by_topic('unhas_decoracao')
             print(' |   ')
 
             trocar_perfil('Unhas de Fada AM')
-            #publish_by_topic('insp_unhas')
+            publish_by_topic('unhas_decoracao')
             print(' |   ')
 
             trocar_perfil('Somos Corujas Baby')
             publish_by_topic('bebe')
             print(' |   ')
 
-        elif hh == 6:
-            print(' |   Segunda ',str(hh),'h')
+            pause_system(hh)
 
-        elif hh == 8:
-            print(' |   Segunda ',str(hh),'h')
-
-        elif hh == 10:
-            print(' |   Segunda ',str(hh),'h')
-
-        elif hh == 12:
-            print(' |   Segunda ',str(hh),'h')
-
-        elif hh == 20:
-            print(' |   Segunda ',str(hh),'h')
-
-        elif hh == 21:
-            print(' |   Segunda ',str(hh),'h')
-
-        elif hh == 22:
-            print(' |   Segunda ',str(hh),'h')
-
-        elif hh == 23:
-            print(' |   Segunda ',str(hh),'h')
+        else:
+            print('')
+            print(' |   Sexta ',str(hh),'h')
+            pause_system(hh)
 
 def terca(hh):
 
